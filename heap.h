@@ -8,6 +8,8 @@
 /// This is the equivalent of what your C library is doing before main() system heap.
 void quak_heap_init();
 
+/// Allocate memory from the heap of size `size` and return a pointer to that memory
 void *quak_malloc(size_t size);
 
+/// Free memory from the heap referenced by `ptr`
 void quak_free(void *ptr);
