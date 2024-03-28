@@ -1,0 +1,11 @@
+MY ALLOCATORS
+
+=================================================
+
+This repository contains a list of memory allocators that I've made in various languages, including C, C++, etc.
+
+You can build the example with cmake.
+
+The `alloc-workspace.vim` file contains: CMakeLists.txt, heap.c, heap.h, and main.c. To view, run `vim -S alloc-workspace.vim -u .vimrc`.
+
+This code is governed by an MIT License that can be found in the LICENSE file in this project
